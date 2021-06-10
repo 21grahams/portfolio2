@@ -50,3 +50,32 @@ nav ul li {
 .active {
   font-weight: bolder;
 }
+
+.social {
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+}
+.social i {
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.social i:hover {
+  color: #ffffff;
+}
+
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+p {
+  font-size: var(--fontsize-p);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 10px;
+}

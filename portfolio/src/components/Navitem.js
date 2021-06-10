@@ -1,18 +1,17 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-class Navitem extends Component {
-  render() {
+function navItem(props) {
+  console.log('navItem props: ', props)
     return (
-      <li id={this.props.item}>
+      <li id={props.item}>
         <Link
-          to={this.props.tolink}
-          onClick={this.props.activec.bind(this, this.props.item)}
+          to={props.tolink}
+          onClick={props.activec.bind(props.item)}
         >
           {this.props.item}
         </Link>
       </li>
     );
-  }
 }
-export default Navitem;
+export default navItem;
