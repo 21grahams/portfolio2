@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 function navItem(props) {
@@ -9,7 +9,7 @@ function navItem(props) {
           to={props.tolink}
           onClick={props.activec.bind(props.item)}
         >
-          {this.props.item}
+          {props.item}
         </Link>
       </li>
     );
