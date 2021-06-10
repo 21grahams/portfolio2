@@ -1,13 +1,13 @@
 import React from "react";
 
-function Widecard() {
+function Widecard(props) {
   return (
     <div class="widecard">
       <div class="compdet">
-        <h3>{this.props.title}</h3>
-        <h4 class="secondtext">{this.props.where}</h4>
+        <h3>{props.title}</h3>
+        <h4 class="secondtext">{props.where}</h4>
         <h4 class="secondtext">
-          {this.props.from} - {this.props.to}
+          {props.from} - {props.to}
         </h4>
       </div>
     </div>
