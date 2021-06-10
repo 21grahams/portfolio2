@@ -9,7 +9,7 @@ function Home() {
       <img src={profilePic} alt="ProfilePic" className="profilepic"></img>
       <ReactTypingEffect
         className="typingeffect"
-        text={["I am Abdul Wahid Naafi", "I am a web developer"]}
+        text={["Hi!", "I'm Graham Kirsh", "I am a software engineer", "I am a web developer", 'thanks for joining me here!']}
         speed={100}
         eraseDelay={700}
       />

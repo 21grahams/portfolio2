@@ -1,27 +1,38 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Social() {
   return (
     <div class="social">
-      <a href="https://codepen.io/naafi" target="_blank">
-        <i class="fab fa-codepen"></i>
-      </a>
-      <a href="https://github.com/naaficodes" target="_blank">
+      <a
+        href="https://github.com/21grahams"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://Instagram.com/iam_naafi" target="_blank">
+      <a
+        href="https://Instagram.com/21grahams"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i class="fab fa-instagram"></i>
       </a>
-      <a href="https://www.facebook.com/abdul.w.naafi" target="_blank">
+      <a
+        href="https://www.facebook.com/profile.php?id=100011453033242"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="https://Linkedin.com/in/naafi" target="_blank">
+      <a
+        href="https://Linkedin.com/in/graham-kirsh"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a href="https://medium.com/@iam_naafi" target="_blank">
-        <i class="fab fa-medium-m"></i>
       </a>
     </div>
   );
 }
+
 export default Social;
