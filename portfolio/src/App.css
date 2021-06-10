@@ -12,7 +12,6 @@
 }
 body {
   font-family: "Raleway";
-  background-color: #1b1d20;
 }
 .App {
   display: flex;
@@ -31,7 +30,8 @@ nav {
 }
 .condiv {
   padding: 100px;
-  background-color: #f4f5f9;
+  background-color: black;
+  color: white;
   flex: var(--condiv-flex);
 }
 
