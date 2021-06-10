@@ -21,11 +21,11 @@ body {
 nav {
   padding: 60px 30px 0px 30px;
   flex: var(--sidebar-flex);
-  background: rgb(238, 103, 143);
+  background: rgb(155, 103, 238);
   background: linear-gradient(
     180deg,
-    rgba(238, 103, 143, 1) 50%,
-    rgba(132, 124, 252, 1) 80%
+    rgb(54, 23, 230) 50%,
+    rgb(10, 230, 28) 80%
   );
 }
 .condiv {
@@ -75,6 +75,7 @@ a {
 .subtopic {
   margin: 10px 10px 30px 10px !important;
 }
+
 p {
   font-size: var(--fontsize-p);
 }
@@ -126,11 +127,11 @@ p {
   }
   .sidebar {
     padding: 30px;
-    background: rgb(238, 103, 143);
+    background: rgb(103, 238, 204);
     background: linear-gradient(
       90deg,
-      rgba(238, 103, 143, 1) 50%,
-      rgba(132, 124, 252, 1) 80%
+      rgb(103, 117, 238) 50%,
+      rgb(223, 33, 230) 80%
     );
   }
   .condiv {
@@ -152,4 +153,14 @@ p {
   .social i {
     padding-right: 0px;
   }
+}
+
+.skillLogos {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 1rem;
+  box-shadow: 7px 10px 12px -5px rgb(17, 17, 17);
+  background-color: rgb(255, 249, 249);
+  border-radius: 30px;
 }

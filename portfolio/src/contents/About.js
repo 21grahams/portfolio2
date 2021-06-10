@@ -23,6 +23,7 @@ function About() {
         meaningful solutions to help sustain a healthier and better future for
         planet Earth and humanity.
       </p>
+      <br></br>
       <p>
         Upon graduation at Fort Lewis College in Durango, Colorado in which I
         received Magna Cum Laude Honors, I relocated to Denver, Colorado where I
@@ -35,6 +36,7 @@ function About() {
         management before finding my new love and obsession in software
         engineering.
       </p>
+      <br></br>
       <p>
         My interests include constant reading/learning/problem solving, working
         out/nutrition, basketball, snowboarding, networking with friends and

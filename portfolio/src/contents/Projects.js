@@ -4,7 +4,7 @@ import Widecard from "../components/Widecard";
 function Projects() {
   return (
     <div className="condiv">
-      <h1 className="subtopic">My Education</h1>
+      <h1 className="subtopic">My Projects</h1>
       <Widecard
         title="M.Tech Software Engineering"
         where="VIT University"
