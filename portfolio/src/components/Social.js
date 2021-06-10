@@ -2,34 +2,34 @@ import React from "react";
 
 function Social() {
   return (
-    <div class="social">
+    <div className="social">
       <a
         href="https://github.com/21grahams"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-github"></i>
+        <i className="fab fa-github"></i>
       </a>
       <a
         href="https://Instagram.com/21grahams"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-instagram"></i>
+        <i className="fab fa-instagram"></i>
       </a>
       <a
         href="https://www.facebook.com/profile.php?id=100011453033242"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-facebook-f"></i>
+        <i className="fab fa-facebook-f"></i>
       </a>
       <a
         href="https://Linkedin.com/in/graham-kirsh"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin-in"></i>
       </a>
     </div>
   );

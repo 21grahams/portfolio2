@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function navItem(props) {
-  console.log('navItem props: ', props)
+
     return (
       <li id={props.item}>
         <Link

@@ -12,6 +12,7 @@
 }
 body {
   font-family: "Raleway";
+  background-color: #1b1d20;
 }
 .App {
   display: flex;

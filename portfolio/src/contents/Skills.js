@@ -10,8 +10,8 @@ function Skills() {
     <div className="condiv skills">
       <h1 className="subtopic">My Skills</h1>
       <ul>
-        {skills.map((value) => {
-          return <li>{value}</li>;
+        {skills.map((value, i) => {
+          return <li key={i}>{value}</li>;
         })}
       </ul>
     </div>
