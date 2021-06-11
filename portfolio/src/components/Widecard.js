@@ -1,7 +1,7 @@
 import React from "react";
 
 function Widecard(props) {
-  console.log('props: ', props);
+
   return (
     <div className="widecard">
       <div className="compdet">

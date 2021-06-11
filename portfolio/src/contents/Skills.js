@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import JS from "../img/JS.png";
 import ReactLogo from "../img/React.png";
 import ExpressLogo from "../img/express.png";
