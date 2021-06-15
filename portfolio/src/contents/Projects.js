@@ -12,10 +12,10 @@ function Projects() {
         to="Present"
       />
       <Widecard
-        title="SSLC | HSC"
-        where="Islamiah Higher Secondary School"
-        from="2011"
-        to="2017"
+        title="Bachelor of Arts"
+        where="Fort Lewis College"
+        from="2008"
+        to="2012"
       />
     </div>
   );
