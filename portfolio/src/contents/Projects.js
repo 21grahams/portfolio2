@@ -6,10 +6,10 @@ function Projects() {
     <div className="condiv">
       <h1 className="subtopic">My Projects</h1>
       <Widecard
-        title="M.Tech Software Engineering"
-        where="VIT University"
-        from="July 2017"
-        to="Present"
+        title="Software Engineer"
+        where="Hack Reactor / Galvanize"
+        from="2020"
+        to="2021"
       />
       <Widecard
         title="Bachelor of Arts"
