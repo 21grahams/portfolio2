@@ -168,13 +168,16 @@ p {
 
 .skillLogos:hover {
   transform: scale(1.25);
-  opacity: 0.4;
+  opacity: 0.1;
 }
 
-/* .hoverText {
-  width: 100%;
-  text-align: center;
-  top: 50%;
-  left: 0;
-  position: absolute;
-} */
+.hoverText {
+  /* width: 100%; */
+  /* text-align: center; */
+  top: 75%;
+  left: 50%;
+  position:absolute;
+  font-size:xx-large;
+  color: red;
+  font-weight: bolder;
+}
