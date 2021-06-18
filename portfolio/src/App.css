@@ -174,8 +174,8 @@ p {
 .hoverText {
   /* width: 100%; */
   /* text-align: center; */
-  top: 75%;
-  left: 50%;
+  top: 5%;
+  left: 85%;
   position:absolute;
   font-size:xx-large;
   color: red;
