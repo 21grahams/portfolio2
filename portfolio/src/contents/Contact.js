@@ -48,19 +48,22 @@ function Contact() {
           type="text"
           value={name}
           onChange={handleChange}
+          placeholder="Add Name..."
         ></input>
         <input
           name="email"
           type="text"
           value={email}
           onChange={handleChange}
+          placeholder="Add Email..."
         ></input>
-        <input
+        <textarea
           name="message"
           type="text"
           value={message}
           onChange={handleChange}
-        ></input>
+          placeholder="Add Message..."
+        ></textarea>
 
         <button onClick={() => reset()}>Go!</button>
       </form>
