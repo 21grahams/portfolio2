@@ -7,17 +7,27 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
-    e.preventDefault()
-    console.log("e: ", e.target.value);
-    if (e.target.name === 'name') {
-      setName(e.target.value)
-    } else if (e.target.name === 'email') {
-      setEmail(e.target.value);
-    } else if (e.target.name === 'message') {
-      setMessage(e.target.value);
+    e.preventDefault();
+    // console.log("e: ", e.target.value);
+    // if (e.target.name === 'name') {
+    //   setName(e.target.value)
+    // } else if (e.target.name === 'email') {
+    //   setEmail(e.target.value);
+    // } else if (e.target.name === 'message') {
+    //   setMessage(e.target.value);
+    // }
+    switch (e.target.name) {
+      case "name":
+        setName(e.target.value);
+        break;
+      case "email":
+        setEmail(e.target.value);
+        break;
+      default:
+        setMessage(e.target.value);
+        break;
     }
   };
-
 
   const reset = () => {
     setName("");
