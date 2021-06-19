@@ -50,6 +50,7 @@ function Contact() {
           onChange={handleChange}
           placeholder="Add Name..."
         ></input>
+        <br></br>
         <input
           name="email"
           type="text"
@@ -57,6 +58,7 @@ function Contact() {
           onChange={handleChange}
           placeholder="Add Email..."
         ></input>
+        <br></br>
         <textarea
           name="message"
           type="text"
