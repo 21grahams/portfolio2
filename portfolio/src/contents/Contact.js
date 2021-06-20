@@ -44,6 +44,7 @@ function Contact() {
 
       <form onSubmit={() => reset()}>
         <input
+          className="inputFields"
           name="name"
           type="text"
           value={name}
@@ -52,6 +53,7 @@ function Contact() {
         ></input>
         <br></br>
         <input
+          className="inputFields"
           name="email"
           type="text"
           value={email}
@@ -59,15 +61,19 @@ function Contact() {
           placeholder="Add Email..."
         ></input>
         <br></br>
-        <textarea
+        <input
+          className="inputFields"
           name="message"
           type="text"
           value={message}
           onChange={handleChange}
           placeholder="Add Message..."
-        ></textarea>
+          // style={{ maxWidth: "100%" }}
+        ></input>
 
-        <button onClick={() => reset()}>Go!</button>
+        <button className="submitButton" onClick={() => reset()}>
+          Go!
+        </button>
       </form>
       <Social />
     </div>

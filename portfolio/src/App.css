@@ -181,3 +181,18 @@ p {
   color: rgb(36, 209, 36);
   font-weight: bolder;
 }
+
+.submitButton {
+  background-color: red;
+}
+
+.inputFields {
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  border-bottom: 1px solid #eee;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+  font-family:inherit;
+  font-size: inherit
+}
