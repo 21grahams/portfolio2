@@ -29,7 +29,8 @@ function Contact() {
     }
   };
 
-  const reset = () => {
+  const reset = (e) => {
+    e.preventDefault();
     setName("");
     setEmail("");
     setMessage("");
@@ -68,11 +69,11 @@ function Contact() {
           value={message}
           onChange={handleChange}
           placeholder="Add Message..."
-          // style={{ maxWidth: "100%" }}
+          style={{ maxWidth: "100%" }}
         ></input>
 
         <button className="submitButton" onClick={() => reset()}>
-          Go!
+          Blast Off!
         </button>
       </form>
       <Social />
