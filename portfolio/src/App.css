@@ -172,10 +172,8 @@ p {
 }
 
 .hoverText {
-  /* width: 100%; */
-  /* text-align: center; */
   top: 5%;
-  left: 85%;
+  left: 80%;
   position:absolute;
   font-size:xx-large;
   color: rgb(36, 209, 36);

@@ -27,14 +27,6 @@ function Skills() {
   const [mongo, setMongo] = useState(false);
   const [AWS, setAWS] = useState(false);
 
-  // function changeBackground(e) {
-  //   e.target.style.background = 'green';
-  // }
-
-  // function originalBackground(e) {
-  //   e.target.style.background = '';
-  // }
-
   return (
     <div className="condiv skills">
       <h1 className="subtopic">My Skills:</h1>
