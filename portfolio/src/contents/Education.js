@@ -1,10 +1,10 @@
 import React from "react";
 import Widecard from "../components/Widecard";
 
-function Projects() {
+function Education() {
   return (
     <div className="condiv">
-      <h1 className="subtopic">My Projects</h1>
+      <h1 className="subtopic">My Education</h1>
       <Widecard
         title="Software Engineer"
         where="Hack Reactor / Galvanize"
@@ -20,4 +20,4 @@ function Projects() {
     </div>
   );
 }
-export default Projects;
+export default Education;
