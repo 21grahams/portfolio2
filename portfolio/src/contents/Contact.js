@@ -62,16 +62,22 @@ function Contact() {
           placeholder="Add Email..."
         ></input>
         <br></br>
-        <input
+        <textarea
           className="inputFields"
           name="message"
           type="text"
           value={message}
           onChange={handleChange}
           placeholder="Add Message..."
-          style={{ maxWidth: "100%" }}
-        ></input>
-
+          style={{
+            maxWidth: "500px",
+            minWidth: "500px",
+            maxHeight: "100px",
+            minHeight: "50px",
+          }}
+          onSubmit={handleChange}
+        ></textarea>
+        <br></br>
         <button className="submitButton" onClick={() => reset()}>
           Blast Off!
         </button>
