@@ -39,9 +39,7 @@ function Contact() {
   return (
     <div className="condiv">
       <h1 className="subtopic">Contact Me</h1>
-      <h3>Email : graham.kirsh@gmail.com</h3>
-      <h3>Github : github.com/21grahams/</h3>
-      <h3>LinkedIn : www.linkedin.com/in/graham-kirsh</h3>
+      <h3>Send me a message! I'll get right back to you 👋</h3>
 
       <form onSubmit={() => reset()}>
         <input
@@ -72,7 +70,7 @@ function Contact() {
           style={{
             maxWidth: "500px",
             minWidth: "500px",
-            maxHeight: "100px",
+            maxHeight: "150px",
             minHeight: "50px",
           }}
           onSubmit={handleChange}
