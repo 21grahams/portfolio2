@@ -70,7 +70,7 @@ function Contact() {
           style={{
             maxWidth: "500px",
             minWidth: "500px",
-            maxHeight: "150px",
+            maxHeight: "200px",
             minHeight: "50px",
           }}
           onSubmit={handleChange}
