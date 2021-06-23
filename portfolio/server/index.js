@@ -1,0 +1,55 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+const cors = require("cors");
+const db = require("../database/queries.js");
+const port = 3001;
+
+//=====================
+//     Middleware
+//=====================
+// app.use(express.static(path.join(__dirname, "..", "dist")));
+// app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.json()); // => req.body
+app.use(cors());
+app.use(express.static('build'));
+
+
+//=====================
+/////// Routes ////////
+//=====================
+
+// get request //
+app.get('/messages', (req, res) => {
+  let str = 'SELECT * from messages';
+  console.log('have we made it here? SERVER')
+  db.getUserInfo(str, (err, results) => {
+    if (err) {
+      console.log('ERROR WITH GET REQUEST: ', err);
+      res.sendStatus(404);
+    } else {
+      res.send(results);
+    }
+  });
+});
+
+//==========post user============
+app.post("/messages", (req, res) => {
+  console.log("req.body: ", req.body);
+  let fullBody = [req.body.name, req.body.email, req.body.message];
+  db.postUserInfo(fullBody, (err, results) => {
+    if (err) {
+      console.log("ERROR WITH POST REQUEST: ", err);
+      res.status(404).send("FAILED");
+    } else {
+      res.status(201).send("POSTED!");
+    }
+  });
+});
+
+//=================================
+/////// Spin Up The Server ////////
+//=================================
+app.listen(port, () => {
+  console.log(`Graham's Portfolio App listening at http://localhost:${port}` || 8080)
+})

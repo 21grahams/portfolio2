@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS portfolio;
+
+CREATE DATABASE portfolio;
+
+USE portfolio;
+
+CREATE TABLE IF NOT EXISTS messages(
+  id int NOT NULL AUTO_INCREMENT,
+  name VARCHAR(50),
+  email VARCHAR(100),
+  message VARCHAR(10000),
+  PRIMARY KEY(id)
+);
