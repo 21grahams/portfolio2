@@ -34,6 +34,8 @@ app.get('/messages', (req, res) => {
 });
 
 //==========post user============
+
+// callback method
 app.post("/messages", (req, res) => {
   console.log("req.body: ", req.body);
   let fullBody = [req.body.name, req.body.email, req.body.message];
@@ -46,6 +48,18 @@ app.post("/messages", (req, res) => {
     }
   });
 });
+
+// async await method
+// app.post('/messages', async(req, res) => {
+//   const { name, email, message } = req.body;
+//   console.log('req.body: ', req.body);
+//   try {
+//     const response = await db.postUserInfo({name, email, message});
+//     console.log('successful post: ', response);
+//   } catch (err) {
+//     console.log('error in the post request on server: ', err);
+//   }
+// })
 
 //=================================
 /////// Spin Up The Server ////////

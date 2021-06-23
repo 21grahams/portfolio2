@@ -11,6 +11,7 @@ const getUserInfo = (user, cb) => {
   });
 };
 
+// callback method
 const postUserInfo = (user, cb) => {
   console.log('HAVE WE MADE IT HERE?', user)
   connection.query('INSERT INTO messages (name, email, message) VALUES (?, ?, ?)', user, (err, results) => {
@@ -21,6 +22,16 @@ const postUserInfo = (user, cb) => {
     }
   });
 };
+
+// async await method
+// const postUserInfo = async (user) => {
+//   try {
+//     console.log('DATABASE RECEIVED! ', user);
+//     const query = await connection.query('INSERT INTO messages (name, email, message) VALUES (?, ?, ?)', user);
+//   } catch (err) {
+//     console.log(err)
+//   }
+// }
 
 module.exports = {
   getUserInfo,
