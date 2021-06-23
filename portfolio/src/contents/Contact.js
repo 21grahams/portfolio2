@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Social from "../components/Social";
+import axios from "axios";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -7,7 +8,6 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
-    e.preventDefault();
     // console.log("e: ", e.target.value);
     // if (e.target.name === 'name') {
     //   setName(e.target.value)
@@ -29,8 +29,19 @@ function Contact() {
     }
   };
 
+  const postUser = (name, email, message) => {
+    let data = { name, email, message };
+    axios
+      .post("http://localhost:3001/messages", data)
+      .then((res) =>
+        alert("Thanks for the message. I'll get right back to you!")
+      )
+      .catch((err) => console.log("Error with post request: ", err));
+  };
+
   const reset = (e) => {
     e.preventDefault();
+    postUser(name, email, message);
     setName("");
     setEmail("");
     setMessage("");
@@ -73,10 +84,10 @@ function Contact() {
             maxHeight: "200px",
             minHeight: "50px",
           }}
-          onSubmit={handleChange}
+          // onSubmit={handleChange}
         ></textarea>
         <br></br>
-        <button className="submitButton" onClick={() => reset()}>
+        <button className="submitButton" onClick={(e) => reset(e)}>
           Blast Off!
         </button>
       </form>
