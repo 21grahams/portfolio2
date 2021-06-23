@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const app = express();
 const cors = require("cors");
 const db = require("../database/queries.js");
@@ -8,8 +7,6 @@ const port = 3001;
 //=====================
 //     Middleware
 //=====================
-// app.use(express.static(path.join(__dirname, "..", "dist")));
-// app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.json()); // => req.body
 app.use(cors());
 app.use(express.static('build'));
