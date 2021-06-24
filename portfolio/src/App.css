@@ -30,7 +30,7 @@ nav {
 }
 .condiv {
   padding: 100px;
-  background-color: black;
+  background-color: #045e96;
   color: white;
   flex: var(--condiv-flex);
 }
@@ -53,7 +53,7 @@ nav {
 
 nav ul {
   font-size: var(--fontsize-nav);
-  text-align: center;
+  /* text-align: center; */
   list-style-type: none;
   text-decoration: none;
   color: white !important;
@@ -176,7 +176,8 @@ p {
   left: 80%;
   position:absolute;
   font-size:xx-large;
-  color: rgb(36, 209, 36);
+  color: rgb(250, 248, 248);
+  box-shadow: 7px 10px 12px -5px rgb(17, 17, 17);
   font-weight: bolder;
 }
 
@@ -205,10 +206,12 @@ p {
 
 .resume {
   float: right;
+  font-size:xx-large;
+  font-weight: bolder;
+  box-shadow: 0 10px 20px rgba(24, 1, 1, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .resume:hover {
   color: #1b1d20;
   background-color: #ffffff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }

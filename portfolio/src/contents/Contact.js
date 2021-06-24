@@ -51,6 +51,7 @@ function Contact() {
     <div className="condiv">
       <h1 className="subtopic">Contact Me:</h1>
       <br></br>
+      <h3>Send me a message at your prefered location. I'll get right back to you 👋</h3>
       {/* <form onSubmit={() => reset()}>
         <input
           className="inputFields"
