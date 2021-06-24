@@ -12,6 +12,14 @@ function Social() {
       </a>
 
       <a
+        href="mailto:graham.kirsh@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-google"></i>
+      </a>
+
+      <a
         href="https://Linkedin.com/in/graham-kirsh"
         target="_blank"
         rel="noopener noreferrer"

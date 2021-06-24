@@ -4,6 +4,7 @@ function About() {
   return (
     <div className="condiv">
       <h4 className="subtopic">Hey there,</h4>
+      <a className='resume' href='https://drive.google.com/file/d/1Vgci5CxOsSaqoKD_vXNeJ8Vv-IayyNkq/view?usp=sharing' target="_blank" rel="noreferrer">View My Resume!</a>
       <h1>I'm Graham Kirsh</h1>
       <h3>
         Full Stack <u>Software Developer</u> | UI/UX <u>Designer</u>

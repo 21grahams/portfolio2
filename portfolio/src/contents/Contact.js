@@ -1,58 +1,57 @@
-import React, { useState } from "react";
+import React from "react";
 import Social from "../components/Social";
-import axios from "axios";
+// import axios from "axios";
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleChange = (e) => {
-    // console.log("e: ", e.target.value);
-    // if (e.target.name === 'name') {
-    //   setName(e.target.value)
-    // } else if (e.target.name === 'email') {
-    //   setEmail(e.target.value);
-    // } else if (e.target.name === 'message') {
-    //   setMessage(e.target.value);
-    // }
-    switch (e.target.name) {
-      case "name":
-        setName(e.target.value);
-        break;
-      case "email":
-        setEmail(e.target.value);
-        break;
-      default:
-        setMessage(e.target.value);
-        break;
-    }
-  };
+  // const handleChange = (e) => {
+  //   // console.log("e: ", e.target.value);
+  //   // if (e.target.name === 'name') {
+  //   //   setName(e.target.value)
+  //   // } else if (e.target.name === 'email') {
+  //   //   setEmail(e.target.value);
+  //   // } else if (e.target.name === 'message') {
+  //   //   setMessage(e.target.value);
+  //   // }
+  //   switch (e.target.name) {
+  //     case "name":
+  //       setName(e.target.value);
+  //       break;
+  //     case "email":
+  //       setEmail(e.target.value);
+  //       break;
+  //     default:
+  //       setMessage(e.target.value);
+  //       break;
+  //   }
+  // };
 
-  const postUser = (name, email, message) => {
-    let data = { name, email, message };
-    axios
-      .post("http://localhost:3001/messages", data)
-      .then((res) =>
-        alert("Thanks for the message. I'll get right back to you!")
-      )
-      .catch((err) => console.log("Error with post request: ", err));
-  };
+  // const postUser = (name, email, message) => {
+  //   let data = { name, email, message };
+  //   axios
+  //     .post("http://localhost:3001/messages", data)
+  //     .then((res) =>
+  //       alert("Thanks for the message. I'll get right back to you!")
+  //     )
+  //     .catch((err) => console.log("Error with post request: ", err));
+  // };
 
-  const reset = (e) => {
-    e.preventDefault();
-    postUser(name, email, message);
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
+  // const reset = (e) => {
+  //   e.preventDefault();
+  //   postUser(name, email, message);
+  //   setName("");
+  //   setEmail("");
+  //   setMessage("");
+  // };
 
   return (
     <div className="condiv">
-      <h1 className="subtopic">Contact Me</h1>
-      <h3>Send me a message! I'll get right back to you 👋</h3>
-
-      <form onSubmit={() => reset()}>
+      <h1 className="subtopic">Contact Me:</h1>
+      <br></br>
+      {/* <form onSubmit={() => reset()}>
         <input
           className="inputFields"
           name="name"
@@ -90,7 +89,7 @@ function Contact() {
         <button className="submitButton" onClick={(e) => reset(e)}>
           Blast Off!
         </button>
-      </form>
+      </form> */}
       <Social />
     </div>
   );

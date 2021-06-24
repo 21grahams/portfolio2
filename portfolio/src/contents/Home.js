@@ -1,7 +1,7 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import profilePic from "../img/graham_kirsh.png";
-import Social from "../components/Social";
+// import Social from "../components/Social";
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
         speed={100}
         eraseDelay={700}
       />
-      <Social />
+      {/* <Social /> */}
     </div>
   );
 }
