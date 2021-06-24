@@ -30,8 +30,12 @@ nav {
 }
 .condiv {
   padding: 100px;
-  background-color: #045e96;
-  color: white;
+  background-color: rgb(75, 70, 128);
+  /* background-image: url('https://kdvr.com/wp-content/uploads/sites/11/2021/03/GettyImages-521663193-1.jpg?w=2560&h=1440&crop=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color: rgb(250, 248, 248);
   flex: var(--condiv-flex);
 }
 
@@ -53,7 +57,6 @@ nav {
 
 nav ul {
   font-size: var(--fontsize-nav);
-  /* text-align: center; */
   list-style-type: none;
   text-decoration: none;
   color: white !important;
@@ -69,7 +72,7 @@ nav ul li:hover {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(12, 12, 12);
 }
 
 .subtopic {
@@ -95,10 +98,10 @@ p {
 .social i {
   padding: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #ffffff;
 }
 .social i:hover {
-  color: #ffffff;
+  color: #12067e;
 }
 .widecard {
   border: 0px solid #9a9b9c;
@@ -107,7 +110,7 @@ p {
 }
 .widecard:hover {
   color: #1b1d20;
-  background-color: #ffffff;
+  background-color: rgb(75, 70, 128);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -206,12 +209,13 @@ p {
 
 .resume {
   float: right;
-  font-size:xx-large;
+  font-size: x-large;
   font-weight: bolder;
-  box-shadow: 0 10px 20px rgba(24, 1, 1, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  font-family: cursive;
+  color: #fcfcfc;
 }
 
 .resume:hover {
-  color: #1b1d20;
-  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(24, 1, 1, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgb(75, 70, 128);
 }

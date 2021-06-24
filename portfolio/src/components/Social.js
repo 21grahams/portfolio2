@@ -50,7 +50,6 @@ function Social() {
       >
         <i className="fab fa-twitter"></i>
       </a>
-
     </div>
   );
 }
