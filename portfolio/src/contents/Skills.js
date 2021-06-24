@@ -29,7 +29,7 @@ function Skills() {
 
   return (
     <div className="condiv skills">
-      <h1 className="subtopic">My Skills:</h1>
+      <h1 className="subtopic">My Skills</h1>
 
       <img className="skillLogos" src={JS} alt="JS" onMouseEnter={() => setJS(true)} onMouseLeave={() => setJS(false)}></img>
       {js && <span className='hoverText'>
