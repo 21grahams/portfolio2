@@ -1,4 +1,5 @@
 const mysql = require('mysql2');
+const Promise = require('bluebird'); // added bluebird
 
 const connection = mysql.createConnection({
   host: 'localhost',
@@ -14,5 +15,7 @@ connection.connect((err) => {
     console.log('Connected to MySQL!')
   }
 });
+
+Promise.promisifyAll(connection); // promisifyAll
 
 module.exports = connection;

@@ -12,26 +12,20 @@ const getUserInfo = (user, cb) => {
 };
 
 // callback method
-const postUserInfo = (user, cb) => {
-  console.log('HAVE WE MADE IT HERE?', user)
-  connection.query('INSERT INTO messages (name, email, message) VALUES (?, ?, ?)', user, (err, results) => {
-    if (err) {
-      cb(err, null)
-    } else {
-      cb(null, results)
-    }
-  });
-};
+// const postUserInfo = (fullBody, cb) => {
+//   console.log('HAVE WE MADE IT HERE?', fullBody)
+//   connection.query('INSERT INTO messages (name, email, message) VALUES (?, ?, ?)', fullBody, cb);
+// };
 
 // async await method
-// const postUserInfo = async (user) => {
-//   try {
-//     console.log('DATABASE RECEIVED! ', user);
-//     const query = await connection.query('INSERT INTO messages (name, email, message) VALUES (?, ?, ?)', user);
-//   } catch (err) {
-//     console.log(err)
-//   }
-// }
+const postUserInfo = async (user) => {
+  try {
+    await connection.queryAsync('INSERT INTO messages (name, email, message) VALUES (?, ?, ?)', user);
+    console.log('query successful');
+  } catch (err) {
+    throw new Error(err);
+  }
+}
 
 module.exports = {
   getUserInfo,
