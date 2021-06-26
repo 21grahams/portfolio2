@@ -10,7 +10,7 @@ function Home() {
       <ReactTypingEffect
         className="typingeffect"
         text={["Hi!", "I'm Graham Kirsh", "I am a software engineer", "I am a web developer", 'thanks for joining me here!']}
-        speed={100}
+        speed={50}
         eraseDelay={700}
       />
       <Social />
