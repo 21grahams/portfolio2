@@ -11,7 +11,7 @@ function About() {
       >
         View My Resume!
       </a>
-      <h4 className="subtopic">Hey there,</h4>
+      <h4 style={{fontSize: '25px'}} className="subtopic">Hey there,</h4>
       <h1>I'm Graham Kirsh</h1>
       <h3>
         Full Stack <u>Software Developer</u> | UI/UX <u>Designer</u>
