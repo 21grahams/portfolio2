@@ -27,7 +27,7 @@ function Social() {
         <i className="fab fa-linkedin-in"></i>
       </a>
 
-      <a
+      {/* <a
         href="https://www.facebook.com/profile.php?id=100011453033242"
         target="_blank"
         rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function Social() {
         rel="noopener noreferrer"
       >
         <i className="fab fa-twitter"></i>
-      </a>
+      </a> */}
     </div>
   );
 }

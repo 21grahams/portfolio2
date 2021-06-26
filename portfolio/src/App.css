@@ -59,6 +59,7 @@ nav ul {
   font-size: var(--fontsize-nav);
   list-style-type: none;
   text-decoration: none;
+  text-align: center;
   color: white !important;
 }
 nav ul li {
@@ -67,6 +68,7 @@ nav ul li {
 
 .sidebar:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 75%;
 }
 
 a {
