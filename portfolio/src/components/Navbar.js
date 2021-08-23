@@ -10,7 +10,7 @@ function Navbar() {
         <hr/>
         <NavItem item="About" tolink="/about"></NavItem>
         <hr/>
-        <NavItem item="Education" tolink="/education"></NavItem>
+        <NavItem item="Projects" tolink="/projects"></NavItem>
         <hr/>
         <NavItem item="Skills" tolink="/skills"></NavItem>
         <hr/>
