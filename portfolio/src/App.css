@@ -244,4 +244,10 @@ p {
   margin-right: auto;
   width: 75%;
   height: 75%;
+  border-radius: 10px;
+  transition: all ease 500ms;
+}
+
+.projectPicture:hover {
+  transform: scale(1.25);
 }

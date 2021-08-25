@@ -6,15 +6,11 @@ function Projects() {
     <div className="condiv">
       <h1 className="subtopic">My Projects</h1>
       {projects.map((project, i) => (
-        <div>
+        <div key={i}>
           <span className="projectTitle">{project.title}</span>
+          <br></br>
           <p className="projectDescription">{project.description}</p>
-          <a
-            key={i}
-            href={project.link}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
+          <a href={project.link} target="_blank" rel="noreferrer noopener">
             <span>
               <img
                 className="projectPicture"
