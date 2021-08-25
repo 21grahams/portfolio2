@@ -11,13 +11,11 @@ function Projects() {
           <br></br>
           <p className="projectDescription">{project.description}</p>
           <a href={project.link} target="_blank" rel="noreferrer noopener">
-            <span>
               <img
                 className="projectPicture"
                 alt="projectpics"
                 src={project.image}
               ></img>
-            </span>
             <br></br>
             <br></br>
           </a>
