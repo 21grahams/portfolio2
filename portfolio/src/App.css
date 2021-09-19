@@ -222,8 +222,8 @@ p {
 }
 
 .projectTitle {
-  display:table;
-  margin:0 auto;
+  display: table;
+  margin: 0 auto;
   font-size: xx-large;
   font-weight: bolder;
   color:rgb(75, 70, 128);

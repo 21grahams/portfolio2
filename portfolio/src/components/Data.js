@@ -7,7 +7,7 @@ export const projects = [
   {
     title: "Project Catwalk",
     description:
-      "Project Catwalk is a front-end design for a ficticious e-commerce website. Users can browse through stylish clothing options and add them to their cart. They can also read through questions and answers submitted by previous shoppers. Users can even view product ratings and reviews and submit their own.",
+      "Project Catwalk is a front-end design for a fictitious e-commerce website. Users can browse through stylish clothing options and add them to their cart. They can also read through questions and answers submitted by previous shoppers. Users can even view product ratings and reviews and submit their own.",
     image: FE3,
     link: "https://github.com/FE-Three/project-catwalk-v3",
   },
@@ -26,7 +26,7 @@ export const projects = [
     link: "http://bit.ly/GrahamsSpaceJourney",
   },
   {
-    title: "David's Widsom App",
+    title: "David's Wisdom App",
     description:
       "davidOfWisdom is a simple user friendly application designed for my father to upload his many different quotes and thoughts he's shared with me and many others over the years. Each phrase gets stored in a Postgres database and a different unique phrase is selected at random with the click of a button. Have a friend, family member or colleague you think would enjoy capturing their unique ideas/thoughts/phrases and stored to relive and share over time? davidOfWisdom is the app for you!",
     image: DavidWisdom,
