@@ -5,7 +5,7 @@ function About() {
     <div className="condiv">
       <a
         className="resume"
-        href="https://drive.google.com/file/d/1Vgci5CxOsSaqoKD_vXNeJ8Vv-IayyNkq/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ZmWrD1P9MRu-jNGaTR8urEluPUa8oyeQ/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
