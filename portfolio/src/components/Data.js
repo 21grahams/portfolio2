@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Your one stop destination for the newest and most intriguing pictures of space, Mars Rovers, Earth from above and more!",
     image: SpaceJourney,
-    link: "http://bit.ly/GrahamsSpaceJourney",
+    link: "http://bit.ly/GrahamsSpaceAdventure",
   },
   {
     title: "David's Wisdom App",
