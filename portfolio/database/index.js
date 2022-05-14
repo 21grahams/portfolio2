@@ -4,7 +4,7 @@ const Promise = require('bluebird'); // added bluebird
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'password',
+  password: 'Password1',
   database: 'portfolio'
 });
 
